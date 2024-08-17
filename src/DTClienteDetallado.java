@@ -1,3 +1,4 @@
+package src;
 
 public class DTClienteDetallado extends DTCliente {
 	

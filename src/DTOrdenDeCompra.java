@@ -1,3 +1,4 @@
+package src;
 
 public class DTOrdenDeCompra {
 	private int numero;
