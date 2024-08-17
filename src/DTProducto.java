@@ -1,3 +1,5 @@
+import java.util.List;
+import java.util.ArrayList;
 
 public class DTProducto {
 	private String nombre;

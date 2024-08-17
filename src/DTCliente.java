@@ -1,3 +1,5 @@
+import java.util.List;
+import java.util.ArrayList;
 
 public class DTCliente {
 	private String nickname;
@@ -16,4 +18,11 @@ public class DTCliente {
 	public void setEmall(String email) {
 		this.email = email;
 	}
+	public DTCliente(String nickname, String email) {
+		super();
+		this.nickname = nickname;
+		this.email = email;
+	}
+	
+	
 }

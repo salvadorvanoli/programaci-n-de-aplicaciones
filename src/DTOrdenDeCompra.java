@@ -1,9 +1,11 @@
+import java.util.List;
+import java.util.ArrayList;
 
 public class DTOrdenDeCompra {
 	private int numero;
 	private DTFecha fecha;
 	private float precioTotal;
-	//private Cliente cliente;
+	private Cliente cliente;
 	
 	public int getNumero() {
 		return numero;
@@ -29,6 +31,5 @@ public class DTOrdenDeCompra {
 		this.fecha = fecha;
 		this.precioTotal = precioTotal;
 	}
-	
 	
 }
