@@ -25,11 +25,10 @@ public class DTOrdenDeCompra {
 	public void setPrecioTotal(float precioTotal) {
 		this.precioTotal = precioTotal;
 	}
-	public DTOrdenDeCompra(int numero, DTFecha fecha, float precioTotal) {
+	public DTOrdenDeCompra(int numero, DTFecha fecha) {
 		super();
 		this.numero = numero;
 		this.fecha = fecha;
-		this.precioTotal = precioTotal;
 	}
 	
 }

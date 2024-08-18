@@ -51,14 +51,22 @@ public class OrdenDeCompra {
 		lista.add(nueva);
 		this.setCantidad(lista);
 	}
-	
-	/*public DTOrden getDTOrden() {
-		return 
+	public OrdenDeCompra(int numero, DTFecha fecha, Cliente cliente) {
+		super();
+		this.numero = numero;
+		this.fecha = fecha;
+		this.cliente = cliente;
 	}
 	
-	public DTOrdenDetallada getDTOrdenDetallada() {
-		return 
+	
+	
+	public DTOrdenDeCompra getDTOrden() {
+		return new DTOrdenDeCompra(this.numero, this.fecha);
 	}
 	
-	*/
+	public DTOrdenDeCompraDetallada getDTOrdenDetallada() {
+		return new DTOrdenDeCompraDetallada(this.numero, this.fecha, this.cantidad);
+	}
+	
+
 }
