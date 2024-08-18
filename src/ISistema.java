@@ -1,8 +1,11 @@
+import java.util.ArrayList;
+import java.util.List;
+
 public abstract class ISistema{
 	
 	public ISistema();
 	
-	// Falta destructor
+	// Falta destructor (busqué y creo que no tiene)
 	
 	// Le puse abstract a todo pero no se si esta bien
 	
@@ -20,7 +23,7 @@ public abstract class ISistema{
 
 	public abstract List<DTProducto> listarProductos();
 
-	public abstract void altaCategoría(String nombre, bool tieneProductos, Categoría padre);
+	public abstract void altaCategoria(String nombre, bool tieneProductos, Categoría padre);
 
 	public abstract List<DTOrdenDeCompra> listarOrdenesDeCompra();
 
