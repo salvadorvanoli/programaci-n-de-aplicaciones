@@ -1,10 +1,12 @@
 package src;
+import java.util.List;
+import java.util.ArrayList;
 
 public class DTOrdenDeCompra {
 	private int numero;
 	private DTFecha fecha;
 	private float precioTotal;
-	//private Cliente cliente;
+	private Cliente cliente;
 	
 	public int getNumero() {
 		return numero;
@@ -24,12 +26,10 @@ public class DTOrdenDeCompra {
 	public void setPrecioTotal(float precioTotal) {
 		this.precioTotal = precioTotal;
 	}
-	public DTOrdenDeCompra(int numero, DTFecha fecha, float precioTotal) {
+	public DTOrdenDeCompra(int numero, DTFecha fecha) {
 		super();
 		this.numero = numero;
 		this.fecha = fecha;
-		this.precioTotal = precioTotal;
 	}
-	
 	
 }

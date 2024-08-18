@@ -1,4 +1,6 @@
 package src;
+import java.util.List;
+import java.util.ArrayList;
 
 public class DTClienteDetallado extends DTCliente {
 	
@@ -6,6 +8,8 @@ public class DTClienteDetallado extends DTCliente {
 	private String apellido;
 	private DTFecha fechaNac;
 	private String foto;
+	
+	
 	public String getNombre() {
 		return nombre;
 	}
